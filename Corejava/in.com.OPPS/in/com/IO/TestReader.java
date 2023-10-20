@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class TestReader {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {// read file 
 		
 		FileReader reader = new FileReader("C:\\Users\\acer\\Desktop\\javaIO\\dm.txt");
 		
