@@ -25,7 +25,7 @@ public class Marksprint {
 			System.out.println("if u r continoue  1 or 0");
 			
 			input = sc.nextInt();
-			System.out.println("enter the no ");
+			System.out.println("stop the loop ");
 			
 		}while(input==1);
 	}
