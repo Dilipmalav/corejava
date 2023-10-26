@@ -29,24 +29,24 @@ public class Itrator1 {
 		ar.add(a2);
 		
 		
-//		Itrator1 e = (Itrator1) ar.get(0);
-//		System.out.println(e);
-//		System.out.println(e.id);
-//		System.out.println(e.name);
-//		System.out.println(e.address);
+		Itrator1 e = (Itrator1) ar.get(0);
+		System.out.println(e);
+		System.out.println(e.id);
+		System.out.println(e.name);
+		System.out.println(e.address);
 		
 		
-//		for(int i=0; i<ar.size(); i++) {
-//			
-//			Itrator1 d = (Itrator1) ar.get(i);
-//			System.out.println(d);
-//		}
+		for(int i=0; i<ar.size(); i++) {
+			
+			Itrator1 d = (Itrator1) ar.get(i);
+			System.out.println(d);
+		}
 		
 		
-//		for(Object obj : ar ) {
-//			Itrator1 s = (Itrator1) obj;
-//			System.out.println(s);
-//		}
+		for(Object obj : ar ) {
+			Itrator1 s = (Itrator1) obj;
+			System.out.println(s);
+		}
 		
 		Iterator it = ar.iterator();
 		while(it.hasNext()) {
