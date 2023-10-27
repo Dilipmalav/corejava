@@ -22,6 +22,9 @@ try {
 } catch (Exception e) {
 	System.out.println(e);
 }
+finally {
+	System.out.println("ye to chalega hi sai");
+}
     
 	
 	

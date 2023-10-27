@@ -22,6 +22,7 @@ public class Calculater {
 		case '+':  num = num1+num2;
 		           System.out.println(num);
 		           
+		           
 		break;
 		
 		case '-' : num = num1-num2;
